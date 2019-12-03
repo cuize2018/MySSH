@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ganymed-ssh2-build210">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../JavaLib/ganymed-ssh2-build210" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../JavaLib/ganymed-ssh2-build210/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../JavaLib/ganymed-ssh2-build210/examples" />
+      <root url="file://$PROJECT_DIR$/../JavaLib/ganymed-ssh2-build210/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../JavaLib/ganymed-ssh2-build210" recursive="false" />
+  </library>
+</component>
