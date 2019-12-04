@@ -39,6 +39,11 @@ public class ConfigFile {
 
     public void saveDataToFile(String fileName) {
         BufferedWriter writer = null;
+        File folder = new File(".\\config");
+        if (!folder.exists() && !folder.isDirectory()){
+            folder.mkdirs();
+            System.out.println("创建配置文件夹");
+        }
         File file = new File(".\\config\\"+ fileName + ".json");
         //如果文件不存在，则新建一个
         if(!file.exists()){
