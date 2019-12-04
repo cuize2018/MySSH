@@ -25,9 +25,6 @@ public class SSHClient {
     public Connection CreatConnection() throws IOException {
         Connection connect = new Connection(host, port);
         ConnectionInfo conInfo = connect.connect();
-
-        System.out.println("连接信息： " + conInfo.toString());
-
         return connect;
     }
 
